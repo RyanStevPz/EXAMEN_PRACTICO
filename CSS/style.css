@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family:Arial;
+    background-color: #ececec;
+    color: #060c11;
+    line-height: 1.6;
+}
+
+
+nav {
+    background-color: #21b993;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: #66ff8c;
+}
+
+
+header {
+    background: linear-gradient(#3bf1f1, #60ce2d);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auto;
+}
+
+.imagen img{
+    width:100%;
+    border-image: auto;
+}
+
+form, div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #17ad7bb6;
+    margin-bottom: 35px;
+}
+
+form h2 {
+    color: #263b80;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #2fdb77;
+    box-shadow: 0 0 5px #5aeb7255;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 11px 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+form input[type="submit"] {
+    background-color: #28aa48;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: #263b80;
+}
+
+form input[type="reset"] {
+    background-color: #e2e8f0;
+    color: #263238;
+}
+
+form input[type="reset"]:hover {
+    background-color: #cbd5e1;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+   
+}
+
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+
+tr:first-child {
+    background-color: #219b8b;
+    color: white;
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: #eef2ff;
+}
+
+tr:hover {
+    background-color: #dbeafe;
+}
+
+
+footer {
+    background-color: #256d13;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
